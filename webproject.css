@@ -1,0 +1,91 @@
+
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header {
+    height: 200px;
+    background-color: white;
+}
+
+header a img {
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: 50px;
+}
+
+
+
+h2 {
+    color: maroon;
+}
+
+#wrapper {
+    min-width: 960px;
+    max-width: 2048px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+nav {
+    background-color: black;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: darkgray;
+}
+
+nav a:hover, a:active {
+    color: #A52A2A;
+    text-decoration: line-through;
+}
+
+#homehero {
+    height: 500px;
+    background-image: url(images/tattoo-3268988_1280.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block;
+    overflow: auto;
+}
+
+section {
+    float: left;
+    width: 40%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+footer {
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+}
