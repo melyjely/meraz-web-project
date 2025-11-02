@@ -25,7 +25,7 @@ h2 {
 }
 
 #wrapper {
-    min-width: 960px;
+    min-width: 400px;
     max-width: 2048px;
     margin-right: auto;
     margin-left: auto;
@@ -53,18 +53,42 @@ nav a:link {
 }
 
 nav a:visited {
-    color: darkgray;
+    color: #d6d6d6;
 }
 
 nav a:hover, a:active {
-    color: #A52A2A;
+    color: maroon;
     text-decoration: line-through;
 }
 
 #homehero {
     height: 500px;
     background-image: url(images/tattoo-3268988_1280.jpg);
-    background-size: 100% 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#abouthero {
+    height: 500px;
+    background-image: url(images/allef-vinicius-hxNiXP498UI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#contacthero {
+    height: 500px;
+    background-image: url(images/drink-drippy-gY7KE8-wKQU-unsplash.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+
+#aftercarehero {
+    height: 500px;
+    background-image: url(images/benjamin-lehman-5t4qCgtaLGU-unsplash.jpg);
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
@@ -79,8 +103,15 @@ main {
 section {
     float: left;
     width: 40%;
+    height: 500px;
     padding-left: 2em;
-    padding-right: 2em;
+    padding-right: 1em;
+}
+
+#intro {
+    float: left;
+    width: 40%;
+    height: 300px;
 }
 
 footer {
@@ -88,4 +119,41 @@ footer {
     font-style: italic;
     text-align: center;
     padding: 1em;
+}
+
+table {
+    margin: auto;
+    width: 90%;
+    border: 1px solid maroon;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid maroon;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #f8dfdf;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+}
+
+input, textarea {
+    margin-bottom: 0.5em;
 }
